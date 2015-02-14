@@ -3,8 +3,10 @@
  */
 'use strict';
 
-angular.module('example366', ['ngAnimate', 'ngTouch'])
-  .controller('Ctrl', function ($scope) {
+var myApp = angular.module('someApp');
+
+
+myApp.controller('GalleryCtrl', function ($scope) {
 
     // Set of Photos
     $scope.photos = [

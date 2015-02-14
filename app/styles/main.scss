@@ -120,23 +120,19 @@ body {
 .arrow {
   cursor: pointer;
   display: block;
-  height: 64px;
   margin-top: -35px;
   outline: medium none;
   position: absolute;
   top: 50%;
-  width: 64px;
   z-index: 5;
+  opacity: 0.5;
+
 }
 .arrow.prev {
-  background-image: url("../images/prev.png");
   left: 20px;
-  opacity: 0.2;
   transition: all 0.2s linear 0s;
 }
 .arrow.next {
-  background-image: url("../images/next.png");
-  opacity: 0.2;
   right: 20px;
   transition: all 0.2s linear 0s;
 }
@@ -146,6 +142,10 @@ body {
 .arrow.next:hover{
   opacity:1;
 }
+.glyphicon-arrow-right, .glyphicon-arrow-left{
+  font-size: 3em;
+}
+
 
 .photoNav {
   bottom: -4px;
